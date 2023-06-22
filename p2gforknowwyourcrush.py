@@ -30,8 +30,8 @@ browser.get('https://www.instagram.com')
 sleep(5)
 
 
-browser.find_element_by_name('username').send_keys('mind_reader_pro7')
-browser.find_element_by_name('password').send_keys('Aditya8544')
+browser.find_element_by_name('username').send_keys('username')
+browser.find_element_by_name('password').send_keys('password')
 login_button = browser.find_element_by_xpath("/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button/div")
 #login_button = browser.find_element_by_css_selector('.sqdOP.L3NKy.y3zKF')
 login_button.click()
