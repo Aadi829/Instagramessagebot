@@ -30,8 +30,8 @@ def login_insta():
 
         browser.get('https://instagram.com')
         sleep(2)
-        browser.find_element_by_name('username').send_keys("crush_name_teller01")
-        browser.find_element_by_name('password').send_keys("Aditya@8544")
+        browser.find_element_by_name('username').send_keys("Username")
+        browser.find_element_by_name('password').send_keys("Password")
         login_button = browser.find_element_by_xpath("/html/body/div[2]/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button")
         login_button.click()
 def enter_request():
